@@ -1,4 +1,4 @@
 :HL["/portofolio26/_next/static/chunks/2ty2p_m4e5dfg.css","style"]
 :HL["/portofolio26/_next/static/media/d8aeca813a9ab546-s.p.18rizl4rsrl42.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"xm2oQ1ULh26v-9E60oB5e","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"CfsT99qrN5FmEmP8zfzrQ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
