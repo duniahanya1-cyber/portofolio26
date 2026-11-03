@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Wajib untuk ekspor static HTML di GitHub Pages
-  basePath: "/portofolio26", // Menyesuaikan sub-folder repository GitHub
-  assetPrefix: "/portofolio26/",
+  output: "export",
+  basePath: "/portofolio26",
+  assetPrefix: "/portofolio26", // Pastikan tanpa garis miring penutup (/) agar path absolut CSS/JS-nya valid
   images: {
-    unoptimized: true, // Wajib agar gambar di folder public tetap bisa dimuat
+    unoptimized: true,
   },
   devIndicators: false,
 };
