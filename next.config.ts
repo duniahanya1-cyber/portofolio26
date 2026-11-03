@@ -1,22 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  devIndicators: false, // <-- Baris sakti untuk menghilangkan logo "N"
-  
-  experimental: {
-    agentFeedback: true,
+  output: "export", // Wajib untuk ekspor static HTML di GitHub Pages
+  basePath: "/portofolio26", // Menyesuaikan sub-folder repository GitHub
+  assetPrefix: "/portofolio26/",
+  images: {
+    unoptimized: true, // Wajib agar gambar di folder public tetap bisa dimuat
   },
-  cacheComponents: true,
-  partialPrefetching: true,
-  turbopack: {
-    rules: {
-      "*.css": {
-        loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
-      },
-    },
-  },
+  devIndicators: false,
 };
 
 export default nextConfig;
