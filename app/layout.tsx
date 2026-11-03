@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio Web Developer, Designer, dan Digital Staff dengan pengalaman administrasi.",
     icons: {
-    icon: "/icon.png", // <-- (Opsional) Kalau kamu mau taruh logo di tab browser
+    icon: "icon.png", // <-- (Opsional) Kalau kamu mau taruh logo di tab browser
   },
 };
 
