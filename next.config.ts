@@ -1,13 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/portofolio26",
-  assetPrefix: "/portofolio26/",
-  images: {
-    unoptimized: true,
+  /* config options here */
+  experimental: {
+    agentFeedback: true,
   },
-  devIndicators: false,
+  cacheComponents: true,
+  partialPrefetching: true,
+  turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+        as: "*.css",
+      },
+    },
+  },
 };
 
 export default nextConfig;
